@@ -1,11 +1,27 @@
+body {
+  /* background-color: #2d2d2d; */
+  background-image: url("img/clock-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+
 .App {
   text-align: center;
   font-size: 35px;
   margin-top: 20%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: rgba(0,0,255,0.25);
 }
 
 .App-title {
   font-size: 50px;
+  color: white;
+}
+
+.App-timer-text {
+  color: white;
 }
 
 .Clock-days, .Clock-hours, .Clock-minutes, .Clock-seconds  {
